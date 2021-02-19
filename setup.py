@@ -149,11 +149,16 @@ INSTALL_REQUIRES = [
 
 ]
 
+# List additional groups of dependencies here (e.g. testing dependencies).
+# You can install these using the following syntax, for example:
+#
+#    $ pip install -e .[develop,testing]
+#
 EXTRAS_REQUIRE = {
     # Dependencies that are required to run tests
     'testing': [
-        'pytest'  # Our tests framework
-        'coverage'  # Code coverage testing for Python
+        'pytest>=6.2.2',  # Our tests framework
+        'pytest-cov>=2.11.1',  # Pytest plugin for measuring coverage
     ],
 }
 
