@@ -14,7 +14,7 @@ from .client import create_client
 
 def get_documents(flow_id: str, client: Client):
     """Get supported documents for a given flow."""
-    return client.flow_documents.collection(flow_id, include='fields')
+    return client.flows.documents.collection(flow_id, include='fields')
 
 
 def document_list(org_id: str, flow_id: str, fields_types=None):

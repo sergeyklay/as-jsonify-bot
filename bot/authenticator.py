@@ -43,7 +43,7 @@ def authenticate(org_uid: str, client_id: str, client_secret: str) -> AddonIdent
     #        }
     #    }
     #
-    identity = client.addons.access_token(org_uid, client_id, client_secret)
+    identity = client.addons.auth(org_uid, client_id, client_secret)
 
     logger.info(
         'Received identity response for organization %s: %s' %
