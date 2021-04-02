@@ -68,7 +68,7 @@ class JsonFileStorage:
     @property
     def contents(self):
         client = create_client(self.org_id)
-        stream = client.slate_addon_files.download(self.file_id)
+        stream = client.addons.files.download(self.file_id)
 
         file_contents = ''
 

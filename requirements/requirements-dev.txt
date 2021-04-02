@@ -1,4 +1,4 @@
-airslate==0.2.1
+airslate==0.3.0a1
 alembic==1.5.4
 asdicts==1.1.0
 attrs==20.3.0
@@ -20,6 +20,7 @@ pip-tools==5.5.0
 pluggy==0.13.1
 py==1.10.0
 pyparsing==2.4.7
+pytest-cov==2.11.1
 pytest==6.2.2
 python-dateutil==2.8.1
 python-dotenv==0.15.0

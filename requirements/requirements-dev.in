@@ -1,4 +1,4 @@
 -r requirements.in
 pip-tools
 pytest
-coverage
+pytest-cov
